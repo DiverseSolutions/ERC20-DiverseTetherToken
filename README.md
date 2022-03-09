@@ -2,6 +2,10 @@
 ---
   Token was created to learn more about the tether token & 
 also be used for diverse dapp's where a token is needed.
+
+Tether token smart contract code was forked from etherscan's verified codebase.
+ - https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7
+
 <br/>
 
 #### Token
