@@ -3240,7 +3240,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.5",
-  "updatedAt": "2022-03-09T04:36:01.244Z",
+  "updatedAt": "2022-03-09T06:10:14.989Z",
   "devdoc": {
     "methods": {
       "balanceOf(address)": {

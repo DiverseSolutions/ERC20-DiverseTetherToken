@@ -6009,7 +6009,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.5",
-  "updatedAt": "2022-03-09T04:36:01.257Z",
+  "updatedAt": "2022-03-09T06:10:15.002Z",
   "devdoc": {
     "methods": {
       "allowance(address,address)": {

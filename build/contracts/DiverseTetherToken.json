@@ -11109,10 +11109,17 @@
       "links": {},
       "address": "0x83345805e199998C16F1247FBdA7166FD3aFf74E",
       "transactionHash": "0xc90d3dc80c4f2fbd9b4d07d221587dc925373ac9ae408e842696a7c2074704b7"
+    },
+    "80001": {
+      "events": {},
+      "links": {},
+      "address": "0x2CCC778eD6dF385e9c99bEA38Aa7Cb90D5f1065D",
+      "transactionHash": "0x873957eaee30386bb019889981fe9a97162ac5359715ecfdcca29d6f57aa2d27"
     }
   },
   "schemaVersion": "3.4.5",
-  "updatedAt": "2022-03-09T04:36:01.247Z",
+  "updatedAt": "2022-03-09T06:13:31.569Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {
       "pause()": {
