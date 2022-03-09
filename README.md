@@ -24,8 +24,8 @@ Tether token smart contract code was forked from etherscan's verified codebase.
 
 #### Token Deployment 
  - Polygon Mumbai
-   - [Mumbai PolygonScan](https://mumbai.polygonscan.com/address/0x2ccc778ed6df385e9c99bea38aa7cb90d5f1065d#readContract)
+   - [Mumbai PolygonScan](https://mumbai.polygonscan.com/address/0x6E99Fa3F37a1BA6429a149384072b5377d843006#code)
    - Token Verified
-   - Contract Address - 0x2CCC778eD6dF385e9c99bEA38Aa7Cb90D5f1065D
+   - Contract Address - 0x6E99Fa3F37a1BA6429a149384072b5377d843006
    - Contract Owner Address - 0xb83E7D21cd4c2f162692bbf2C94f864FEE488965
  

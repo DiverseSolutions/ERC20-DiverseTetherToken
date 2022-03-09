@@ -198,7 +198,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 147,
-        "sourceUnit": 773,
+        "sourceUnit": 811,
         "src": "58:23:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -209,7 +209,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 147,
-        "sourceUnit": 729,
+        "sourceUnit": 735,
         "src": "82:26:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -220,7 +220,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 147,
-        "sourceUnit": 931,
+        "sourceUnit": 969,
         "src": "109:24:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -234,10 +234,10 @@
               "id": 5,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 772,
+              "referencedDeclaration": 810,
               "src": "248:7:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$772",
+                "typeIdentifier": "t_contract$_Ownable_$810",
                 "typeString": "contract Ownable"
               }
             },
@@ -252,10 +252,10 @@
               "id": 7,
               "name": "ERC20Basic",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 728,
+              "referencedDeclaration": 734,
               "src": "257:10:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC20Basic_$728",
+                "typeIdentifier": "t_contract$_ERC20Basic_$734",
                 "typeString": "contract ERC20Basic"
               }
             },
@@ -265,8 +265,8 @@
           }
         ],
         "contractDependencies": [
-          728,
-          772
+          734,
+          810
         ],
         "contractKind": "contract",
         "documentation": "@title Basic token\n@dev Basic version of StandardToken, with no allowances.",
@@ -274,8 +274,8 @@
         "id": 146,
         "linearizedBaseContracts": [
           146,
-          728,
-          772
+          734,
+          810
         ],
         "name": "BasicToken",
         "nodeType": "ContractDefinition",
@@ -287,10 +287,10 @@
               "id": 9,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 930,
+              "referencedDeclaration": 968,
               "src": "280:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$930",
+                "typeIdentifier": "t_contract$_SafeMath_$968",
                 "typeString": "library SafeMath"
               }
             },
@@ -483,7 +483,7 @@
                                     "name": "msg",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 1171,
+                                    "referencedDeclaration": 1209,
                                     "src": "621:3:0",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_magic_message",
@@ -607,7 +607,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1189,
+                      "referencedDeclaration": 1227,
                       "src": "611:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -793,7 +793,7 @@
                               "lValueRequested": false,
                               "memberName": "mul",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 867,
+                              "referencedDeclaration": 905,
                               "src": "930:10:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -835,7 +835,7 @@
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 885,
+                      "referencedDeclaration": 923,
                       "src": "929:33:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1040,7 +1040,7 @@
                       "lValueRequested": false,
                       "memberName": "sub",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 905,
+                      "referencedDeclaration": 943,
                       "src": "1069:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1096,7 +1096,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1171,
+                          "referencedDeclaration": 1209,
                           "src": "1103:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1178,7 +1178,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1171,
+                              "referencedDeclaration": 1209,
                               "src": "1126:3:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -1217,7 +1217,7 @@
                         "lValueRequested": false,
                         "memberName": "sub",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 905,
+                        "referencedDeclaration": 943,
                         "src": "1117:24:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1369,7 +1369,7 @@
                         "lValueRequested": false,
                         "memberName": "add",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 929,
+                        "referencedDeclaration": 967,
                         "src": "1175:17:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1490,7 +1490,7 @@
                               "name": "owner",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 732,
+                              "referencedDeclaration": 770,
                               "src": "1250:5:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -1556,7 +1556,7 @@
                                   "name": "owner",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 732,
+                                  "referencedDeclaration": 770,
                                   "src": "1268:5:0",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_address",
@@ -1581,7 +1581,7 @@
                               "lValueRequested": false,
                               "memberName": "add",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 929,
+                              "referencedDeclaration": 967,
                               "src": "1259:19:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
@@ -1624,7 +1624,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 1171,
+                                "referencedDeclaration": 1209,
                                 "src": "1306:3:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -1651,7 +1651,7 @@
                               "name": "owner",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 732,
+                              "referencedDeclaration": 770,
                               "src": "1318:5:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
@@ -1691,7 +1691,7 @@
                             "name": "Transfer",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 727,
+                            "referencedDeclaration": 733,
                             "src": "1297:8:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -1731,7 +1731,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1171,
+                          "referencedDeclaration": 1209,
                           "src": "1358:3:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -1798,7 +1798,7 @@
                       "name": "Transfer",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 727,
+                      "referencedDeclaration": 733,
                       "src": "1349:8:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -1977,7 +1977,7 @@
             "scope": 146,
             "src": "833:560:0",
             "stateMutability": "nonpayable",
-            "superFunction": 719,
+            "superFunction": 725,
             "visibility": "public"
           },
           {
@@ -2111,7 +2111,7 @@
             "scope": 146,
             "src": "1604:114:0",
             "stateMutability": "view",
-            "superFunction": 712,
+            "superFunction": 718,
             "visibility": "public"
           }
         ],
@@ -2146,7 +2146,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 773,
+          "SourceUnit": 811,
           "absolutePath": "project:/contracts/Ownable.sol",
           "file": "./Ownable.sol",
           "scope": 147,
@@ -2161,7 +2161,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 729,
+          "SourceUnit": 735,
           "absolutePath": "project:/contracts/ERC20Basic.sol",
           "file": "./ERC20Basic.sol",
           "scope": 147,
@@ -2176,7 +2176,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 931,
+          "SourceUnit": 969,
           "absolutePath": "project:/contracts/SafeMath.sol",
           "file": "./SafeMath.sol",
           "scope": 147,
@@ -2192,16 +2192,16 @@
       {
         "attributes": {
           "contractDependencies": [
-            728,
-            772
+            734,
+            810
           ],
           "contractKind": "contract",
           "documentation": "@title Basic token\n@dev Basic version of StandardToken, with no allowances.",
           "fullyImplemented": false,
           "linearizedBaseContracts": [
             146,
-            728,
-            772
+            734,
+            810
           ],
           "name": "BasicToken",
           "scope": 147
@@ -2218,7 +2218,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "Ownable",
-                  "referencedDeclaration": 772,
+                  "referencedDeclaration": 810,
                   "type": "contract Ownable"
                 },
                 "id": 5,
@@ -2241,7 +2241,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "ERC20Basic",
-                  "referencedDeclaration": 728,
+                  "referencedDeclaration": 734,
                   "type": "contract ERC20Basic"
                 },
                 "id": 7,
@@ -2259,7 +2259,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "SafeMath",
-                  "referencedDeclaration": 930,
+                  "referencedDeclaration": 968,
                   "type": "library SafeMath"
                 },
                 "id": 9,
@@ -2478,7 +2478,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 1189,
+                              "referencedDeclaration": 1227,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -2554,7 +2554,7 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 1171,
+                                                  "referencedDeclaration": 1209,
                                                   "type": "msg",
                                                   "value": "msg"
                                                 },
@@ -2672,7 +2672,7 @@
               "payable": false,
               "scope": 146,
               "stateMutability": "nonpayable",
-              "superFunction": 719,
+              "superFunction": 725,
               "visibility": "public"
             },
             "children": [
@@ -2884,7 +2884,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "div",
-                              "referencedDeclaration": 885,
+                              "referencedDeclaration": 923,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -2927,7 +2927,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "mul",
-                                          "referencedDeclaration": 867,
+                                          "referencedDeclaration": 905,
                                           "type": "function (uint256,uint256) pure returns (uint256)"
                                         },
                                         "children": [
@@ -3183,7 +3183,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "sub",
-                              "referencedDeclaration": 905,
+                              "referencedDeclaration": 943,
                               "type": "function (uint256,uint256) pure returns (uint256)"
                             },
                             "children": [
@@ -3285,7 +3285,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 1171,
+                                      "referencedDeclaration": 1209,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -3331,7 +3331,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "sub",
-                                  "referencedDeclaration": 905,
+                                  "referencedDeclaration": 943,
                                   "type": "function (uint256,uint256) pure returns (uint256)"
                                 },
                                 "children": [
@@ -3377,7 +3377,7 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 1171,
+                                              "referencedDeclaration": 1209,
                                               "type": "msg",
                                               "value": "msg"
                                             },
@@ -3513,7 +3513,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "add",
-                                  "referencedDeclaration": 929,
+                                  "referencedDeclaration": 967,
                                   "type": "function (uint256,uint256) pure returns (uint256)"
                                 },
                                 "children": [
@@ -3695,7 +3695,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 732,
+                                          "referencedDeclaration": 770,
                                           "type": "address",
                                           "value": "owner"
                                         },
@@ -3736,7 +3736,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "add",
-                                          "referencedDeclaration": 929,
+                                          "referencedDeclaration": 967,
                                           "type": "function (uint256,uint256) pure returns (uint256)"
                                         },
                                         "children": [
@@ -3770,7 +3770,7 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 732,
+                                                  "referencedDeclaration": 770,
                                                   "type": "address",
                                                   "value": "owner"
                                                 },
@@ -3853,7 +3853,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 727,
+                                      "referencedDeclaration": 733,
                                       "type": "function (address,address,uint256)",
                                       "value": "Transfer"
                                     },
@@ -3879,7 +3879,7 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 1171,
+                                          "referencedDeclaration": 1209,
                                           "type": "msg",
                                           "value": "msg"
                                         },
@@ -3898,7 +3898,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 732,
+                                      "referencedDeclaration": 770,
                                       "type": "address",
                                       "value": "owner"
                                     },
@@ -3976,7 +3976,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 727,
+                              "referencedDeclaration": 733,
                               "type": "function (address,address,uint256)",
                               "value": "Transfer"
                             },
@@ -4002,7 +4002,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1171,
+                                  "referencedDeclaration": 1209,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -4075,7 +4075,7 @@
               "payable": false,
               "scope": 146,
               "stateMutability": "view",
-              "superFunction": 712,
+              "superFunction": 718,
               "visibility": "public"
             },
             "children": [
@@ -4226,7 +4226,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.5",
-  "updatedAt": "2022-03-09T06:10:14.987Z",
+  "updatedAt": "2022-03-09T07:46:37.462Z",
   "devdoc": {
     "methods": {
       "balanceOf(address)": {

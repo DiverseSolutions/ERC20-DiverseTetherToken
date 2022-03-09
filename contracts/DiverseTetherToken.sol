@@ -21,12 +21,12 @@ contract DiverseTetherToken is Pausable, StandardToken, BlackList {
     // @param _name Token Name
     // @param _symbol Token symbol
     // @param _decimals Token decimals
-    function DiverseTetherToken(uint _initialSupply) public {
-        _totalSupply = _initialSupply;
+    function DiverseTetherToken() public {
+        _totalSupply = 10000000000 * 10 ** 6;
         name = "dTether USD";
         symbol = "dUSDT";
         decimals = 6;
-        balances[owner] = _initialSupply;
+        balances[owner] = 10000000000 * 10 ** 6;
         deprecated = false;
     }
 
