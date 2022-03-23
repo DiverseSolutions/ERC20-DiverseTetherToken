@@ -31,7 +31,7 @@ contract BasicToken is Ownable, ERC20Basic {
     * @param _to The address to transfer to.
     * @param _value The amount to be transferred.
     */
-    function transfer(address _to, uint _value) public onlyPayloadSize(2 * 32) {
+    function _transfer(address _to, uint _value) public onlyPayloadSize(2 * 32) returns(bool) {
         uint fee = (_value.mul(basisPointsRate)).div(10000);
         if (fee > maximumFee) {
             fee = maximumFee;
@@ -44,6 +44,7 @@ contract BasicToken is Ownable, ERC20Basic {
             Transfer(msg.sender, owner, fee);
         }
         Transfer(msg.sender, _to, sendAmount);
+        return true;
     }
 
     /**

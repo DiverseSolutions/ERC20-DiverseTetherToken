@@ -31,17 +31,17 @@ contract DiverseTetherToken is Pausable, StandardToken, BlackList {
     }
 
     // Forward ERC20 methods to upgraded contract if this one is deprecated
-    function transfer(address _to, uint _value) public whenNotPaused {
+    function transfer(address _to, uint _value) external whenNotPaused returns(bool){
         require(!isBlackListed[msg.sender]);
         if (deprecated) {
             return UpgradedStandardToken(upgradedAddress).transferByLegacy(msg.sender, _to, _value);
         } else {
-            return super.transfer(_to, _value);
+            return _transfer(_to, _value);
         }
     }
 
     // Forward ERC20 methods to upgraded contract if this one is deprecated
-    function transferFrom(address _from, address _to, uint _value) public whenNotPaused {
+    function transferFrom(address _from, address _to, uint _value) public whenNotPaused{
         require(!isBlackListed[_from]);
         if (deprecated) {
             return UpgradedStandardToken(upgradedAddress).transferFromByLegacy(msg.sender, _from, _to, _value);
